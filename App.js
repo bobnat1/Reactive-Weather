@@ -1,6 +1,7 @@
 import React from 'react';
 // Import data and WeatherCard here
-
+import cities from "./data.js";
+import WeatherCard from './components/WeatherCard';
 
 function App() {
     return (
@@ -10,7 +11,7 @@ function App() {
             <div className = "app">
                 {/* Render components here */}
                 
-
+                {cities.map(city => <WeatherCard city={city}/>)}
 
             </div>
             
