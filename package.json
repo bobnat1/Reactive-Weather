@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel public/index.html --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
   "dependencies": {
     "parcel": "^2.8.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite": "^5.2.7"
   },
   "devDependencies": {
     "process": "^0.11.10"
